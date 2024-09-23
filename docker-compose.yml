@@ -5,7 +5,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./service:/service
+      - ./unite_together_django_website:/unite_together_django_website
     environment:
       - DB_HOST=database
       - DB_NAME=dbname
